@@ -1,0 +1,51 @@
+html{
+    background: rgb(0,245,255);
+    background: linear-gradient(0deg, rgba(0,245,255,1) 10%, rgba(45,115,253,1) 100%);
+    
+}
+
+button:focus {outline:0;}
+
+#main_container{
+    display: flex;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#watch{
+    text-align: center;
+}
+
+#display{
+    font-family: Century Gothic, Didact Gothic, Questrial, Muli, Verdana, sans-serif;
+    color: white;
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+#watch .buttons button{
+    font-family: Century Gothic, Didact Gothic, Questrial, Muli, Verdana, sans-serif;
+    font-size: 1rem;
+    background: #49c2f1;
+    border: 2px solid #92beff;
+    height: 50px;
+    width: 80px;
+    transition-property: background;
+    transition-duration: 200ms;
+    transition: background-color 200ms;
+    -webkit-transition: background-color 200ms;
+    -o-transition: background-color 200ms;
+    -moz-transition: background-color 200ms;
+}
+
+#watch .buttons button:hover{
+    background: aliceblue;
+    border: 2px solid rgb(233, 233, 233);
+}
+
+#watch .buttons button:active{
+    background: rgb(168, 168, 168);
+    border: 2px solid rgb(233, 233, 233);
+}
